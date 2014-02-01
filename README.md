@@ -7,25 +7,25 @@ Create simple worlds with bots moving about and interacting with each other.
 
 ###Map.py
 A module that contains two classes (plus a unittest class)
-####cLayer class
+#####cLayer class
 A container class that represents a two dimensional list.
-####cTexture layer class
+#####cTexture layer class
 A subclass of cLayer which provides methods for terrain and lines.
 
 
 ###Bot.py
 A module that contains three classes
-####cChar class
+#####cChar class
 A class that will declare itself a character, allow itself to be called and append itself to a given list.
-####cBot class
+#####cBot class
 A subclass of the cChar class, this class will place itself into a given layer object, and allow movement within it.
-####cLivingBot class
+#####cLivingBot class
 A subclass of the cBot class, this class will add iMoves, sDirection and iHealth.
 
 
 ###Game.py
 A module that contains one class
-####cGame class
+#####cGame class
 "Creates a world with several layers and bots to inhabit it."
 
 
