@@ -1,11 +1,11 @@
 #My Cli Engine
 
 
-##What you can do with it:
+###What you can do with it:
 Create simple worlds with bots moving about and interacting with each other.
 
 
-##Map.py
+###Map.py
 A module that contains two classes (plus a unittest class)
 ####cLayer class
 A container class that represents a two dimensional list.
@@ -13,7 +13,7 @@ A container class that represents a two dimensional list.
 A subclass of cLayer which provides methods for terrain and lines.
 
 
-##Bot.py
+###Bot.py
 A module that contains three classes
 ####cChar class
 A class that will declare itself a character, allow itself to be called and append itself to a given list.
@@ -23,18 +23,18 @@ A subclass of the cChar class, this class will place itself into a given layer o
 A subclass of the cBot class, this class will add iMoves, sDirection and iHealth.
 
 
-##Game.py
+###Game.py
 A module that contains one class
 ####cGame class
 "Creates a world with several layers and bots to inhabit it."
 
 
-##main.py
+###main.py
 A module for creating games and runnig them,
 used now for testing purposes and demonstration.
 
 
-##Unittesting.py
+###Unittesting.py
 Holds a class which supports unittesting and mocking of modules.
 This class should be subclassed and your tests put in methods.
 These methods should have names starting with mTest_ so they get automatically
