@@ -20,12 +20,13 @@ A subclass of the cChar class, this class will place itself into a given layer o
 A subclass of the cBot class, this class will add iMoves, sDirection and iHealth.
 
 ##Game.py
-
+A module that contains one class
 ##cGame class
 "Creates a world with several layers and bots to inhabit it."
 
 ##main.py
-Creates some games and run them, for testing purposes and demonstration.
+A module for creating games and runnig them,
+used now for testing purposes and demonstration.
 
 ##Unittesting.py
 Holds a class which supports unittesting and mocking of modules.
